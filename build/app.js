@@ -10,8 +10,6 @@ const port = 3000;
 app.use(express.json());
 
 // Serviços de backend
-// Estudar o que são Promises (async/await)
-// Todo serviço que envolve banco de dados deve trabalhar com Promises
 app.get("/obterAeronaves", async(req,res) =>{
     // 1- Abrir conexão com o Oracle
     const conn = await oracleDB.getConnection({
