@@ -20,6 +20,6 @@ Tarefa pra casa{
   3- Fazer o código que o professor deu funcionar(estudar os links que o professor disponibilizou no drive)
   4- Implementar os serviços Inserir aeronave e Excluir aeronave
   5- Tirar a SENHA e USUÁRIO do CÓDIGO... usando o dotenv (criar um arquivo de ambiente e criar o usuário e a senha dele, e no código mandar buscar pelo arquivo, para aumentar a segurança)
-  6- Estudar o que são Promises (async/await)
+  6- Estudar o que são Promises Javascript/Typescrpit(async/await)
   7- Todo serviço que envolve banco de dados deve trabalhar com Promises
 }
