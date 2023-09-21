@@ -10,4 +10,14 @@ npm i typescript @types/node @types/express @types/oracledb @types/dotenv --save
 tsconfig >> rootDir: "src" outdir: "build"
 
 para usar o oracle pelo sqldeveloper, conectar via wallet
-para usar o oracle no node (ou em qualquer softwsare que eu criar) eu uso via string de conexão - uma linguiça de texto que tem os dados de conexão
+para usar o oracle no node (ou em qualquer softwsare que eu criar) eu uso via string de conexão - uma linguiça de texto que tem os dados de conexão.
+
+
+
+Tarefa pra casa{
+  1- Criar conta na OCI e subir um banco
+  2- criar a tabela AERONAVES  e colocar alumas via SQL
+  3- fazer o código que o professor deu funcionar(estudar os links que o professor disponibilizou no drive)
+  4- implementar os serviços Inserir aeronave e Excluir aeronave
+  5- Tirar a SENHA e USUÁRIO do CÓDIGO... usando o dotenv (criar um arquivo de ambiente e criar o usuário e a senha dele, e no código mandar buscar pelo arquivo, para aumentar a segurança)
+}
